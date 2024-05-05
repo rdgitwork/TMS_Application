@@ -1,0 +1,13 @@
+﻿<Window x:Class="MilestoneProject.PlannerDashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Planner Dashboard" Height="300" Width="400">
+    <StackPanel>
+        <Button Content="Order Reception" Click="OpenOrderReceptionPage"/>
+        <Button Content="Carrier Assignment" Click="OpenCarrierAssignmentPage"/>
+        <Button Content="Capacity Management" Click="OpenCapacityManagementPage"/>
+        <Button Content="Route Planning" Click="OpenRoutePlanningPage"/>
+        <Button Content="Order Tracking and Simulation" Click="OpenOrderTrackingSimulationPage"/>
+        <Button Content="Invoice Review" Click="OpenInvoiceReviewPage"/>
+    </StackPanel>
+</Window>

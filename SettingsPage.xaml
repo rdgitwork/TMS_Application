@@ -1,0 +1,12 @@
+﻿<Window x:Class="MilestoneProject.SettingsPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings" Height="300" Width="400">
+    <StackPanel>
+        <Label Content="IP Address:"/>
+        <TextBox x:Name="ipAddressTextBox" Margin="5"/>
+        <Label Content="Port:"/>
+        <TextBox x:Name="portTextBox" Margin="5"/>
+        <Button Content="Save" Margin="5" Click="Save_Click" />
+    </StackPanel>
+</Window>

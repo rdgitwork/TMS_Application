@@ -1,0 +1,10 @@
+﻿<Window x:Class="MilestoneProject.CustomerReviewPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Customer Review" Height="450" Width="800">
+    <Grid>
+        <ListView x:Name="customersListView" Margin="10">
+            <!-- Define your ListView for customer review here -->
+        </ListView>
+    </Grid>
+</Window>

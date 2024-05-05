@@ -1,0 +1,15 @@
+﻿<Window x:Class="MilestoneProject.UpdateOrderStatusWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Update Order Status" Height="200" Width="300">
+    <StackPanel>
+        <Label Content="Select New Status:"/>
+        <ComboBox x:Name="statusComboBox" Margin="5">
+            <ComboBoxItem Content="received"/>
+            <ComboBoxItem Content="assigned"/>
+            <ComboBoxItem Content="in_transit"/>
+            <ComboBoxItem Content="completed"/>
+        </ComboBox>
+        <Button Content="Save" Margin="5" Click="SaveButton_Click"/>
+    </StackPanel>
+</Window>

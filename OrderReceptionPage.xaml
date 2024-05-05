@@ -1,0 +1,18 @@
+﻿<Window x:Class="MilestoneProject.OrderReceptionPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Order Reception" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="ordersDataGrid" Margin="10" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}" />
+                <DataGridTextColumn Header="Buyer ID" Binding="{Binding BuyerId}" />
+                <DataGridTextColumn Header="Carrier ID" Binding="{Binding CarrierId}" />
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+                <DataGridTextColumn Header="Creation Date" Binding="{Binding CreationDate}" />
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Assign Carrier" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10" Click="AssignCarrier_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+﻿<Window x:Class="MilestoneProject.BuyerDashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Buyer Dashboard" Height="300" Width="400">
+    <StackPanel>
+        <Button Content="Contract Marketplace" Click="OpenContractMarketplacePage"/>
+        <Button Content="Customer Review" Click="OpenCustomerReviewPage"/>
+        <Button Content="Order Management" Click="OpenOrderManagementPage"/>
+        <Button Content="Invoice Generation" Click="OpenInvoiceGenerationPage"/>
+    </StackPanel>
+</Window>

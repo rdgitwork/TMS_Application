@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddOrUpdateRouteWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminDashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BuyerDashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CapacityManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CarrierAssignmentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CarrierCapacityUpdateWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CarrierManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CarrierSelectionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ContractMarketplacePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerReviewPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InvoiceGenerationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InvoiceReviewPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LogViewerPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderReceptionPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderTrackingSimulationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PlannerDashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RateFeeManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RouteManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RoutePlanningPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SettingsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateOrderStatusWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddOrUpdateRouteWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminDashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BuyerDashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CapacityManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CarrierAssignmentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CarrierCapacityUpdateWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CarrierManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CarrierSelectionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ContractMarketplacePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerReviewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InvoiceGenerationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InvoiceReviewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LogViewerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OrderManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OrderReceptionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OrderTrackingSimulationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PlannerDashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RateFeeManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RouteManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RoutePlanningPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateOrderStatusWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

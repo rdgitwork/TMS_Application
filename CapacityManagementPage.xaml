@@ -1,0 +1,16 @@
+﻿<Window x:Class="MilestoneProject.CapacityManagementPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Capacity Management" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="carriersDataGrid" Margin="10" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Carrier ID" Binding="{Binding CarrierId}" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Capacity" Binding="{Binding Capacity}" />
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Update Capacity" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10" Click="UpdateCapacity_Click"/>
+    </Grid>
+</Window>

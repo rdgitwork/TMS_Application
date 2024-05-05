@@ -1,0 +1,13 @@
+﻿<Window x:Class="MilestoneProject.AdminDashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Admin Dashboard" Height="300" Width="400">
+    <StackPanel>
+        <Button Content="Settings" Click="OpenSettingsPage"/>
+        <Button Content="Log Viewer" Click="OpenLogViewerPage"/>
+        <Button Content="Rate/Fee Management" Click="OpenRateFeeManagementPage"/>
+        <Button Content="Carrier Management" Click="OpenCarrierManagementPage"/>
+        <Button Content="Route Management" Click="OpenRouteManagementPage"/>
+        
+    </StackPanel>
+</Window>

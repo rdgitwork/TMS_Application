@@ -1,0 +1,19 @@
+﻿<Window x:Class="MilestoneProject.RoutePlanningPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Route Planning" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="routesDataGrid" Margin="10" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Route ID" Binding="{Binding RouteId}" />
+                <DataGridTextColumn Header="Start Point" Binding="{Binding StartPoint}" />
+                <DataGridTextColumn Header="End Point" Binding="{Binding EndPoint}" />
+                <DataGridTextColumn Header="Distance (km)" Binding="{Binding Distance}" />
+                <DataGridTextColumn Header="Travel Time (h)" Binding="{Binding TravelTime}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Add Route" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10" Click="AddRoute_Click"/>
+        <Button Content="Update Route" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" Click="UpdateRoute_Click"/>
+        <Button Content="Delete Route" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Click="DeleteRoute_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="MilestoneProject.OrderTrackingSimulationPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Order Tracking and Simulation" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="ordersDataGrid" Margin="10" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}" />
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Update Status" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10" Click="UpdateStatus_Click"/>
+        <Button Content="Simulate Day" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Click="SimulateDay_Click"/>
+    </Grid>
+</Window>

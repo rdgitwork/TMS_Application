@@ -1,0 +1,19 @@
+﻿<Window x:Class="MilestoneProject.OrderManagementPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MilestoneProject"
+        xmlns:model="clr-namespace:MilestoneProject.Models"
+        Title="Order Management" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="ordersDataGrid" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}" />
+                <DataGridTextColumn Header="Buyer ID" Binding="{Binding BuyerId}" />
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+                <DataGridTextColumn Header="Creation Date" Binding="{Binding CreationDate}" />
+                <DataGridTextColumn Header="Completion Date" Binding="{Binding CompletionDate}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</Window>

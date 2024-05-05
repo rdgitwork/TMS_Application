@@ -1,0 +1,10 @@
+﻿<Window x:Class="MilestoneProject.CarrierCapacityUpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Update Carrier Capacity" Height="200" Width="300">
+    <StackPanel>
+        <Label Content="New Capacity:"/>
+        <TextBox x:Name="newCapacityTextBox" Margin="5"/>
+        <Button Content="Update" Margin="5" Click="UpdateButton_Click"/>
+    </StackPanel>
+</Window>
